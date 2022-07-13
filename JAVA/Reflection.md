@@ -40,9 +40,9 @@ class, constructor, method, field 값을 재귀적으로 바꿀 수도 있다.
 리플렉션을 제한적으로 사용한다면 리플렉션의 장점을 활용할 수 있다.
 
 -리플렉션 : 인스턴스 생성
--인터페이스, 슈퍼클래스 : 객체 참조, 메서드 호출이나 필드 이용
+<br>-인터페이스, 슈퍼클래스 : 객체 참조, 메서드 호출이나 필드 이용
 
-
+<br>
 
 
 ![image](https://user-images.githubusercontent.com/62210870/178747850-a3315cff-36b0-4c10-be11-6b489e07c078.png)
