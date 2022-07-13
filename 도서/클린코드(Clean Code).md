@@ -1,7 +1,7 @@
 
 
-![image](https://user-images.githubusercontent.com/62210870/178757632-3e6b2c9b-d756-4092-83aa-67417e1651e2.png)
-<br><br><br>
+![image](https://user-images.githubusercontent.com/62210870/178767705-f8ddb4c4-08c9-4c7b-a9b6-9d82f6526191.png)
+<br><br><br><br><br>
 
 
 ## 클린 코드(Claen Code)
@@ -10,7 +10,7 @@
 - [깨끗한 코드와 나쁜 코드](#깨끗한-코드와-나쁜-코드)
 - [의미있는 코드](#의미있는-코드)
 
-
+<br><br><br><br>
 
 
 ## 깨끗한 코드와 나쁜 코드
