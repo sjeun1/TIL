@@ -40,55 +40,52 @@
 <br>
 ## 의미있는 코드
 
-##### -&nbsp;의도를 분명히 한다 
+##### &nbsp;의도를 분명히 한다 
 -&nbsp;변수명이 경과시간이라면 int d; 보다는 int elapsedTimeInDays; 로 명확하게 정의하는 것이 낫다. 
 <br><br>
 
-##### -&nbsp;잘못된 정보를 피한다 
+##### &nbsp;잘못된 정보를 피한다 
 -&nbsp;그룹으로 묶을 때 실제 List 가 아니라면 accountList 라는 식으로 명명하지 않는다.
 -&nbsp;accoutGroup, Accounts, bunchOfAccounts 등이 더 옳은 표현이다.
 -&nbsp;헷갈릴만한 유사한 이름을 사용하지 않는다.
 <br><br>
 
-##### -&nbsp;의미있게 구분한다.
+##### &nbsp;의미있게 구분한다.
 -&nbsp;숫자를 붙인 이름은 사용하지 않는다. (ex.  a1, a2 ..)
 -&nbsp;불용어를 추가하는 방식은 적절하지 못한다. (ex.  Product, Products, ProductInfo, ProductData ..)
 <br><br>
 
-##### -&nbsp;발음하기쉬운 이름을 사용한다.
+##### &nbsp;발음하기쉬운 이름을 사용한다.
 -&nbsp;genymdhms -> generationTimestamp 
 <br><br>
 
-##### -&nbsp;검색하기 쉬운 이름을 사용한다.
+##### &nbsp;검색하기 쉬운 이름을 사용한다.
 <br><br>
 
-##### -&nbsp;인코딩을 피한다
+##### &nbsp;인코딩을 피한다
 -&nbsp;헝가리식 표기법(변수이름에 타입인코딩할 필요 X), 멤버 변수 접두어(X), 인터페이스/구현클래스 사용 시 인코딩이 필요한 경우라면 구현 클래스에 인코딩.
 <br><br>
 
-##### -&nbsp;클래스이름 : 명사나 명사구가 적합 (customer, payment)
-<br><br>
+##### &nbsp;클래스이름 : 명사나 명사구가 적합 (customer, payment)
 
-##### -&nbsp;메서드이름 : 동사나 동사구가 적합 (insertCustomer, postPayment) 접급자/변경자/조건자는 get, set, is 등이 붙는다
-<br><br>
+##### &nbsp;메서드이름 : 동사나 동사구가 적합 (insertCustomer, postPayment) 접급자/변경자/조건자는 get, set, is 등이 붙는다
 
-##### -&nbsp;한개념에 한단어를 사용한다
-<br><br>
+##### &nbsp;한개념에 한단어를 사용한다
 
-##### -&nbsp;해법영역에서 가져온 이름을 사용한다 
+##### &nbsp;해법영역에서 가져온 이름을 사용한다 
 -&nbsp;전산용어, 알고리즘 이름 등 기술개념에는 기술이름이 가장 적합(ex. visitor패턴 사용시 AccountVisitor, 멀티프로세싱때 jobQueue 메소드)
 <br><br>
 
-##### -&nbsp;문제영역에서 가져온 이름을 사용한다
+##### &nbsp;문제영역에서 가져온 이름을 사용한다
 -&nbsp;적절한 개발 용어가 없으면 문제영역에서 가져와서 분야 전문가가 파악 가능.
 <br><br>
 
-##### -&nbsp;의미 있는 맥락을 추가한다.
+##### &nbsp;의미 있는 맥락을 추가한다.
 -&nbsp;firstName, street, city, state, zipcode 를 보면 주소라는 사실을 알지만 state 변수 하나만 사용한다면 state 가 주소 일부라는 사실을 빠르게 파악하기가 힘들다.
 -&nbsp;같은 변수라도 addr 접두어를 추가하여  addrFirstName 라고 쓰면 맥락이 분명해진다.
 <br><br>
 
-##### -&nbsp;불필요한 맥락을 없앤다.
+##### &nbsp;불필요한 맥락을 없앤다.
 -&nbsp;의미가 분명할 경우에 한해서는 짧은 이름이 긴 이름보다 좋다. 
 &nbsp;accountAdress, customerAddress 는 Address 클래스 인스턴스로는 좋은 이름이지만 클래스 이름으로는 적합하지 않다.
 -&nbsp;postalAddress, MAC, URI 등 분명한 이름으로 붙이는게 좋다.
