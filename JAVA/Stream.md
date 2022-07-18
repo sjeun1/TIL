@@ -29,14 +29,12 @@ java SE8 에서의 스트림은 데이터를 추상화하여 다루며 다양한
 <br>
 
 ### 스트림 명령어
-<br>
 
 #### 중간연산 
 <br>-&nbsp;filter() : 조건에 충족하는 요소 생성<br>
 -&nbsp;distinct() : 중복 제거<br>
 -&nbsp;sorted() : 정렬<br>
 -&nbsp;mapToInt(),mapToLong(),mapToDobule() : map 타입이 숫자가 아닌 경우 변환<br>
-<br>
 
 #### 최종연산
 -&nbsp;count() : stream 개수<br>
@@ -47,7 +45,6 @@ java SE8 에서의 스트림은 데이터를 추상화하여 다루며 다양한
 -&nbsp;toArray() : 모든 값을 배열로 반환<br>
 -&nbsp;findFirst() : 첫번째 값<br>
 -&nbsp;findAny() : 랜덤 값<br>
-<br>
 
 #### Collector 연산 
 Stream의 요소를 수집하여 요소를 그룹화 하거나 결과를 담아 반환하는데 사용.<br>
@@ -57,7 +54,6 @@ Stream의 요소를 수집하여 요소를 그룹화 하거나 결과를 담아 
 -&nbsp;Collectors.groupingBy<br>
 -&nbsp;Collectors.partioningBy<br>
 -&nbsp;Collectors.summarizingInt()<br>
-<br>
 
 그 외 연산자는 https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html 에서 확인 가능하다.
 <br>
