@@ -6,6 +6,7 @@
     - 테스트2
   
 ## JAVA
+  - [Stream과 Lambda](https://github.com/sjeun1/TIL/blob/main/JAVA/Stream.md)
   - [Reflection](https://github.com/sjeun1/TIL/blob/main/JAVA/Reflection.md)
   
 ## 알고리즘
