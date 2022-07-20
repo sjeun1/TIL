@@ -20,10 +20,10 @@
 
 ### Cookie / Session 공통점
 쿠키와 세션의 공통점은 웹 통신 시 로그인 정보등의 필요한 정보를 저장하는 것이 공통점이다.
-<br>
+<br><br>
 
 ### Cookie / Session 차이점
-차이점은 저장 위치, 형식이 다르고 만료 시점이 다르다는 차이점이 있다.
+차이점은 저장 위치, 형식이 다르고 만료 시점이 다르다는 차이점이 있다.<br>
 ![image](https://user-images.githubusercontent.com/62210870/180006563-16d69863-f020-4fc8-bc84-ffc03b80f80c.png)
 
 <br>
