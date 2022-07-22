@@ -1,21 +1,21 @@
 
 
-## TRIGGER(트리거)
+# TRIGGER(트리거)
 <br>
 
-### TRIGGER 란
+## TRIGGER 란
 TRIGGER 는 테이블에 대한 이벤트에 반응해 자동으로 실행되는 작업을 의미한다.
 데이터를 CRUD 했을 때 로그를 기록하며 상태 관리를 자동화 하는데 사용이 된다.
 <br><br>
 
-### TRIGGER 의 장점
+## TRIGGER 의 장점
 -&nbsp;업무 처리 자동화 <br>
 -&nbsp;데이터 변경한 사용자 추적 <br>
 -&nbsp;데이터 무결성의 강화<br>
 -&nbsp;데이터 백업<br>
 <br>
 
-### TRIGGER 의 단점
+## TRIGGER 의 단점
 -&nbsp;성능 저하 <br>
 -&nbsp;오류 발생 시 모두 롤백 <br>
 -&nbsp;트랜잭션 처리 되어 외부로부터 블로킹 상태 <br>
