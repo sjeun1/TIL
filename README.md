@@ -26,7 +26,8 @@
   - [Cookie 와 Session](https://github.com/sjeun1/TIL/blob/main/WEB/Cookie%20%EC%99%80%20Session.md)
   
 ## Database
-  - [TRIGGER](https://github.com/sjeun1/TIL/blob/main/DATABASE/TRIGGER.md)
+  - [Trigger](https://github.com/sjeun1/TIL/blob/main/Database/Trigger.md)
+  - [Partitioning](https://github.com/sjeun1/TIL/blob/main/Database/Partitioning.md)
   
 ## Network
   - [SSH](https://github.com/sjeun1/TIL/blob/main/Network/SSH.md)
