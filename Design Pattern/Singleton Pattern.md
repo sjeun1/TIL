@@ -15,7 +15,6 @@
 <br>
 
 ### Singleton Pattern 사용법
-<br>
 
 #### 1. 기본 예제
 
