@@ -9,9 +9,9 @@
 <br>
 
 ### Singleton 단점
-너무 많이 엮여있으면 결합도가 높아져 OOP 의 개방-폐쇄 원칙에 위배된다
-멀티스레드 환경에서 동기화 처리가 안되어있으면 인스턴스가 1개 이상이 생성되어 동시성 문제가 생길 수 있다 
-(*동시성문제 : 여러개의 스레그가 사용되어 CPU Cache Memory와 RAM 의 데이터가 불일치하여 생기는 문제*)
+너무 많이 엮여있으면 결합도가 높아져 OOP 의 개방-폐쇄 원칙에 위배된다<br>
+멀티스레드 환경에서 동기화 처리가 안되어있으면 인스턴스가 1개 이상이 생성되어 동시성 문제가 생길 수 있다<br>
+(*동시성문제 : 여러개의 스레그가 사용되어 CPU Cache Memory와 RAM 의 데이터가 불일치하여 생기는 문제*)<br>
 <br>
 
 ### Singleton Pattern 사용법
@@ -21,10 +21,10 @@
 
 ![image](https://user-images.githubusercontent.com/62210870/181779339-9944f5ca-3b3b-4230-8e42-7b75c51c6afe.png)
 
-해당 예제는 외부에서 호출 못하게 생성자를 private 으로 설정하고, public 으로 설정된 getInstance 만 호출하는데
+해당 예제는 외부에서 호출 못하게 생성자를 private 으로 설정하고, public 으로 설정된 getInstance 만 호출하는데 <br>
 instance 가 null 일 때(최초로 설정되는 때) 만 생성하는 코드이다.<br>
 이 예제는 가장 기본적인 사용 방법이지만 thread safety 하지못한 코드이다<br>
-(*thread safety : 다른 함수가 해당 함수를 호출 할 때 다른 스레드가 호출하여도 올바른 값이 응답되는 것*)
+(*thread safety : 다른 함수가 해당 함수를 호출 할 때 다른 스레드가 호출하여도 올바른 값이 응답되는 것*)<br>
 이러한 문제를 해결하기 위해서 Synchronzied 를 사용하여 코드를 작성한다<br>
 <br>
 
