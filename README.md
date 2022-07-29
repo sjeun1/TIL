@@ -11,7 +11,7 @@
 
 ## Design Pattern
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
-  - [Singleton Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Singleton%20Pattern.md)
+    - [Singleton Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Singleton%20Pattern.md)
   
 ## 알고리즘
   - test 
