@@ -43,4 +43,20 @@ instance 가 null 일 때(최초로 설정되는 때) 만 생성하는 코드이
 해당 예제는 null 일 경우에만 synchronized 블록을 체크하는 코드로 병목현상을 방지 할 수 있다<br>
 여기에서는 volatile 를 확인 할 수 있는데 volatile 는 Main Memory 에서 CPU의 값을 읽거나 쓰기때문에 주로 여러 스레드가 동시에 접근할 수 있는 변수를 volatile 로 선언한다.<br>
 (하나의 쓰레드만 읽고 쓰고, 나머지 스레드가 읽는 상황에서 가장 최신 값을 보장한다)<br>
-그런데 
+그런데 메인 메모리로부터 데이터를 읽고 쓰는 작업은 CPU 캐시를 이용하는 것 보다 많은 비용이 요구되며 volatile 선언은 JVM 의 성능 향상을 위한 기술인, 코드 재정리를 막기도 하는 등의 문제가 있을 수 있다고 한다. <br>
+(volatile 참고1 : https://www.hanbit.co.kr/channel/category/category_view.html?cms_code=CMS6818849791 )<br>
+(volatile 참고2 : https://jenkov.com/tutorials/java-concurrency/volatile.html )<br>
+<br>
+
+#### 4. LazyHolder
+
+![image](https://user-images.githubusercontent.com/62210870/181800238-c15aeabb-204b-4b00-9a79-de4aea072ecc.png)
+
+해당 예제는 singleton pattern 을 사용할 때 주로 사용되는 예제로, 생성될 객체를 Lazy Loading 하는 코드이다.<br>
+클래스가 로딩될때 LazyHolder 라는 내부 클래스는 로딩되지 않고 getInstance 를 호출할 때 클래스가 로딩되어 필요할 때만 호출되도록 하는 것이다.<br>
+해당 코드는 위에서 사용한 synchronized 등을 사용하지 않고도 멀티스레드 환경에서도 사용할 수 있다.<br>
+왜냐하면 JVM 에서 클래스를 로딩하는 과정에서 멀티 스레드 환경에서도 안전한 동기화 환경을 제공하기 때문이다.<br>
+<br>
+
+
+
