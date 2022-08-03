@@ -20,8 +20,9 @@
 <br>
 
 ### Stack 예제
-<br>
-![image](https://user-images.githubusercontent.com/62210870/182625230-b64b5813-eea0-43e1-acde-244143c9fa25.png)
+
+![image](https://user-images.githubusercontent.com/62210870/182639658-54c1c063-f354-40a9-8675-30a3964ee013.png)
+
 <br>
 -&nbsp;push(data):  스택의 가장 윗 부분에 data를 추가한다.
 -&nbsp;pop(): 스택에서 가장 위에 있는 항목을 제거한다.
