@@ -14,7 +14,7 @@
     - [Singleton Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Singleton%20Pattern.md)
   
 ## 알고리즘
-  - test 
+  - [Stack](https://github.com/sjeun1/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Stack.md)
 
 ## 자료구조
   - test 
