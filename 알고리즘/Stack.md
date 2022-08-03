@@ -24,10 +24,11 @@
 ![image](https://user-images.githubusercontent.com/62210870/182639658-54c1c063-f354-40a9-8675-30a3964ee013.png)
 
 <br>
--&nbsp;push(data):  스택의 가장 윗 부분에 data를 추가한다.
--&nbsp;pop(): 스택에서 가장 위에 있는 항목을 제거한다.
--&nbsp;peek(): 스택의 가장 위에 있는 항목을 조회한다
--&nbsp;isEmpty(): 스택이 비어 있을 때에는 true, 아닐때는 false 를 반환한다.
--&nbsp;clear() : 스택을 모두 비우고 초기화한다
+-&nbsp;push(data):  스택의 가장 윗 부분에 data를 추가한다.<br>
+-&nbsp;pop(): 스택에서 가장 위에 있는 항목을 제거한다.<br>
+-&nbsp;peek(): 스택의 가장 위에 있는 항목을 조회한다<br>
+-&nbsp;isEmpty(): 스택이 비어 있을 때에는 true, 아닐때는 false 를 반환한다.<br>
+-&nbsp;clear() : 스택을 모두 비우고 초기화한다.<br>
 
-위가 기본적인 예제이고 보통 스택을 구현할 때에는 배열을 이용하는 방법과 연결리스트로 구현하는 방법이 있다.
+위가 기본적인 예제이고 보통 스택을 구현할 때에는 배열을 이용하는 방법과 연결리스트로 구현하는 방법이 있다.<br>
+<br>
