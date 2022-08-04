@@ -35,11 +35,12 @@
 #### 배열을 이용하여 스택 구현
 ![image](https://user-images.githubusercontent.com/62210870/182867235-7cd1cda5-67c3-4dfc-a562-ee6c136cab81.png)
 ![image](https://user-images.githubusercontent.com/62210870/182867329-fbf7a955-14ba-48c2-b3c8-1d354817659f.png)
-<br>
+<br><br>
 
 #### 연결리스트를 이용하여 스택 구현
-배열로 구현한 스택은 크기 변경이 힘들어 메모리 낭비가 생길 수 있다.
+배열로 구현한 스택은 크기 변경이 힘들어 메모리 낭비가 생길 수 있다.<br>
 그래서 연결리스트를 사용하여 이러한 문제점을 해결할 수 있고, 별도로 overflow 를 체크하지 않아도 된다.
+<br>
 ![image](https://user-images.githubusercontent.com/62210870/182872415-38ac94cd-07b5-4dfc-8230-d2aa7e963196.png)
 ![image](https://user-images.githubusercontent.com/62210870/182872481-2c3d7e44-1813-40c8-a60b-ac90744f9162.png)
 <br>
