@@ -32,3 +32,12 @@
 
 위가 기본적인 예제이고 보통 스택을 구현할 때에는 배열을 이용하는 방법과 연결리스트로 구현하는 방법이 있다.<br>
 <br>
+
+#### 배열을 이용하여 스택 구현
+![image](https://user-images.githubusercontent.com/62210870/182867235-7cd1cda5-67c3-4dfc-a562-ee6c136cab81.png)
+![image](https://user-images.githubusercontent.com/62210870/182867329-fbf7a955-14ba-48c2-b3c8-1d354817659f.png)
+<br>
+
+
+
+
