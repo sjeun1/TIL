@@ -8,6 +8,7 @@
 ## JAVA
   - [Stream과 Lambda](https://github.com/sjeun1/TIL/blob/main/JAVA/Stream.md)
   - [Reflection](https://github.com/sjeun1/TIL/blob/main/JAVA/Reflection.md)
+  - [JVM (Java Virtual Machine)](https://github.com/sjeun1/TIL/blob/main/JAVA/JVM%20(Java%20Virtual%20Machine).md)
 
 ## Design Pattern
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
