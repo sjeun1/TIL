@@ -26,7 +26,7 @@ garbage collection 에 의해 메모리 관리를 알아서 해준다.<br>
 3. 가비지 콜렉터(Garbage collector) : 메모리 관리를 자동으로 해준다.<br>
 4. 런타임 데이터 영역 (Runtime Data Area)<br>
 -&nbsp;Method Area (모든 스레드가 공유) <br>
-  Method 영역은 JVM 시작될 때 생성되는 공간이다. 바이트코드는 이영역에 저장이 된다.<br>
+-&nbsp;Method 영역은 JVM 시작될 때 생성되는 공간이다. 바이트코드는 이영역에 저장이 된다.<br>
 -&nbsp;Heap (모든스레드가 공유) : 동적으로 생성된 객체(ex. 인스턴스 변수)가 저장되는 영역으로 GC의 대상이 되는 영역이다<br>
 -&nbsp;Stack : 지역변수, 메서드 매개변수 등 임시적으로 사용되는 변수가 저장되는 영역이다. <br>
 -&nbsp;PC Register : 현재 수행중인  jvm 의 명령어 주소를 저장하는 공간이다.<br>
