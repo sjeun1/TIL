@@ -42,3 +42,5 @@
 ## Tool
   - IntelliJ
     - [단축키(Keyboard shortcut)](https://github.com/sjeun1/TIL/commit/b5bbbeff3423fa903596162b029cf8c14b90d3c2)
+    - [Live Templates](https://github.com/sjeun1/TIL/blob/main/Tool/IntelliJ/Live%20Templates.md)
+    
