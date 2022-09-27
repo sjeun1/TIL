@@ -10,6 +10,7 @@
   - [Reflection](https://github.com/sjeun1/TIL/blob/main/JAVA/Reflection.md)
   - [JVM (Java Virtual Machine)](https://github.com/sjeun1/TIL/blob/main/JAVA/JVM%20(Java%20Virtual%20Machine).md)
   - [String.ValueOf() & Object.toString()](https://github.com/sjeun1/TIL/blob/main/JAVA/String.ValueOf()%20%26%20Object.toString().md)
+  - [System.lineSeparator() (= System.getProperty("line.separator"))](https://github.com/sjeun1/TIL/blob/main/JAVA/System.lineSeparator().md)
 
 ## Design Pattern
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
