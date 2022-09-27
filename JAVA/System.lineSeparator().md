@@ -1,4 +1,4 @@
-### System.lineSeparator() ( =System.getProperty("line.separator"))
+## System.lineSeparator() ( =System.getProperty("line.separator"))
 개행문자란 줄바꿈을 나타내는 제어 문자이다. <br>
 개행문자에는 LF(\n) 과 CR(\r) 이 있다.<br>
 이러한 개행문자는 운영체제 별로 차이가 있어서 System.getProperty("line.separator") 를 쓴다.<br>
