@@ -8,14 +8,12 @@ Window : CRLF (\r\n)<br>
 Mac : CR(\r)<br>
 Unix : LF(\n)<br>
 
-#### Java 버전 6 이하
-System.getProperty("line.separator")
+#### 버전별 사용 방법
+Java 버전 6 이하  :  System.getProperty("line.separator")
+Java 버전 7 이상  :  System.lineSeparator()
 <br>
 
-#### Java 버전 7 이상
-System.lineSeparator()
-<br>
-
+#### 문제
 String text = "개행문자가\n 포함되어있습니다.\n";<br>
 해당 텍스트로 System.lineSeparator() 를 조회를 했을 때 한글이므로 KR의 값을 기대했는데 EN으로 값이 조회되어 원하는 값이 나오지 않고 있었다.<br>
 
