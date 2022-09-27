@@ -26,5 +26,5 @@ Windows platform 에서는 "\r\n" (CR+LF) 으로 표시되었기 때문에 개�
 
 #### 해결방안
 <br>
-![image](https://user-images.githubusercontent.com/62210870/192455106-e8cece8a-9a4f-43d0-b8f5-a91017bad787.png)
+![image](https://user-images.githubusercontent.com/62210870/192455586-09d6136e-e757-4cd5-817b-443f2c59e138.png)
 
