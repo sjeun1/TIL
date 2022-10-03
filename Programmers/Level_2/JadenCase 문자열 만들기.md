@@ -44,10 +44,10 @@ class Solution {
         }
         StringBuilder sb = new StringBuilder();
         for (String s : array)
-			sb.append(s);
+		sb.append(s);
         
-		return sb.toString();
-	}
+	return sb.toString();
+     }
 }
 ```
 
