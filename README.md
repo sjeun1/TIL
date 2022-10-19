@@ -48,5 +48,5 @@
     - [단축키(Keyboard shortcut)](https://github.com/sjeun1/TIL/commit/b5bbbeff3423fa903596162b029cf8c14b90d3c2)
     - [Live Templates](https://github.com/sjeun1/TIL/blob/main/Tool/IntelliJ/Live%20Templates.md)
     - [Database Browser](https://github.com/sjeun1/TIL/blob/main/Tool/IntelliJ/Database%20Browser.md)
-    - [active profile](https://github.com/sjeun1/TIL/blob/main/Tool/IntelliJ/active%20profile.md)
+    - [Active Profile](https://github.com/sjeun1/TIL/blob/main/Tool/IntelliJ/active%20profile.md)
     
