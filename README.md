@@ -2,8 +2,7 @@
 
 
 ## SPRING 
-  - [테스트 페이지](https://github.com/sjeun1/TIL/blob/main/Spring/test.md)
-    - 테스트2
+  - [Spring Batch]([https://github.com/sjeun1/TIL/blob/main/Spring/test.md](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Batch.md))
   
 ## JAVA
   - [Stream과 Lambda](https://github.com/sjeun1/TIL/blob/main/JAVA/Stream.md)
