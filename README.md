@@ -2,7 +2,7 @@
 
 
 ## SPRING 
-  - [Spring Batch]([https://github.com/sjeun1/TIL/blob/main/Spring/test.md](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Batch.md))
+  - [Spring Batch](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Batch.md)
   
 ## JAVA
   - [Stream과 Lambda](https://github.com/sjeun1/TIL/blob/main/JAVA/Stream.md)
