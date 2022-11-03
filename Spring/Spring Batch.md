@@ -53,8 +53,22 @@ BATCH_JOB_EXECUTION_PARAMS : Job 과 함께 JobParameter 정보를 저장<br>
 BATCH_JOB_EXECUTION_CONTEXT : Job 실행동안 여러가지 상태정보, 공유 데이터를 직렬화(Json 형식) 해서 저장. Step 간 서로 공유 가능함.<br>
 BATCH_STEP_EXECUTION : Step 의 실행정보가 저장. 생성, 시작, 종료시간, 실행상태, 메시지 등을 관리<br>
 BATCH_STEP_EXECUTION_CONTEXT : Step 의 실행동안 여러가지 상태정보, 공유 데이터를 직렬화(Json 형식) 해서 저장. Step 별로 저장되며 Step 간 서로 공유 불가능<br>
+<br>
 
-
+## 배치 도메인 이해
+1. Job
+  1. Job 
+    1. Batch Layer Struct 에서 가장 상위에 있는 개념. 하나의 배치 작업 자체를 의미한다.
+    2. Job Configuration 을 통해 생성되는 객체 단위로서 배치 작업을 어떻게 구성하고 실행할 것인지 전체적으로 설정하고 명세해둔 객체를 의미한다. 
+    3. 최상위 인터페이스이며, 여러 Step 을 포함하고 있는 컨테이너로서 반드시 한개 이상의 Step 으로 구성해야 한다.
+    4. 순차적으로 Step 을 실행시키는 Job 인 SimpleJob 과 특정한 조건이나 흐름에 따라 Step 을 실행시키는 FlowJob 이 있다
+  2. JobInstance
+  3. JobParameters
+  4. JobExecution
+2. Step
+3. ExecutionContext
+4. JobRepository / JobLauncher
+<br>
 
 
 <br><br><br>
