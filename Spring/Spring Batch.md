@@ -57,10 +57,10 @@ BATCH_STEP_EXECUTION_CONTEXT : Step 의 실행동안 여러가지 상태정보, 
 
 ## 배치 도메인 이해
 1. Job<br>
-  1. Job <br>
-  2. JobInstance<br>
-  3. JobParameters<br>
-  4. JobExecution<br>
+  -&nbsp;Job <br>
+  -&nbsp;JobInstance<br>
+  -&nbsp;JobParameters<br>
+  -&nbsp;JobExecution<br>
 2. Step<br>
 3. ExecutionContext<br>
 4. JobRepository / JobLauncher<br>
