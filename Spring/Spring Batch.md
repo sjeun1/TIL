@@ -58,10 +58,6 @@ BATCH_STEP_EXECUTION_CONTEXT : Step 의 실행동안 여러가지 상태정보, 
 ## 배치 도메인 이해
 1. Job<br>
   1. Job <br>
-    1. Batch Layer Struct 에서 가장 상위에 있는 개념. 하나의 배치 작업 자체를 의미한다.<br>
-    2. Job Configuration 을 통해 생성되는 객체 단위로서 배치 작업을 어떻게 구성하고 실행할 것인지 전체적으로 설정하고 명세해둔 객체를 의미한다. <br>
-    3. 최상위 인터페이스이며, 여러 Step 을 포함하고 있는 컨테이너로서 반드시 한개 이상의 Step 으로 구성해야 한다.<br>
-    4. 순차적으로 Step 을 실행시키는 Job 인 SimpleJob 과 특정한 조건이나 흐름에 따라 Step 을 실행시키는 FlowJob 이 있다<br>
   2. JobInstance<br>
   3. JobParameters<br>
   4. JobExecution<br>
@@ -69,6 +65,12 @@ BATCH_STEP_EXECUTION_CONTEXT : Step 의 실행동안 여러가지 상태정보, 
 3. ExecutionContext<br>
 4. JobRepository / JobLauncher<br>
 <br>
+
+#### Job <br>
+1. Batch Layer Struct 에서 가장 상위에 있는 개념. 하나의 배치 작업 자체를 의미한다.<br>
+2. Job Configuration 을 통해 생성되는 객체 단위로서 배치 작업을 어떻게 구성하고 실행할 것인지 전체적으로 설정하고 명세해둔 객체를 의미한다. <br>
+3. 최상위 인터페이스이며, 여러 Step 을 포함하고 있는 컨테이너로서 반드시 한개 이상의 Step 으로 구성해야 한다.<br>
+4. 순차적으로 Step 을 실행시키는 Job 인 SimpleJob 과 특정한 조건이나 흐름에 따라 Step 을 실행시키는 FlowJob 이 있다
 
 
 <br><br><br>
