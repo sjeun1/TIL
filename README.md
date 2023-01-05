@@ -41,6 +41,7 @@
 ## Blog
   - [시스템 분석 설계1](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_1.md)
   - [시스템 분석 설계2](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_2.md)
+  - [AWS 공부 간단 정리](https://github.com/sjeun1/TIL/blob/main/Blog/AWS%EA%B3%B5%EB%B6%80%EB%A9%94%EB%AA%A8.md)
 
 ## Tool
   - IntelliJ
