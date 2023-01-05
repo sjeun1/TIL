@@ -11,7 +11,7 @@ ex)Gmail, Slack, Google Docs
 
 
 
-- AWS 구분
+-&nbsp;AWS 구분
 크게 글로벌 서비스, 리전으로 구분됨
 글로벌 서비스 : IAM, Amazon ClouldFront, Route53
 리전 & 가용 X : VPC, S3
@@ -20,7 +20,7 @@ ex)Gmail, Slack, Google Docs
 
 
 
-- 리전 선택 시 고려할 점 
+-&nbsp;리전 선택 시 고려할 점 
 지연 속도, 법률, 사용 가능한 AWS 서비스 (리전마다 사용 가능 서비스가 다름)
 
 가용영역이란 하나이상의 데이터 센터
@@ -30,18 +30,18 @@ ex)Gmail, Slack, Google Docs
 
 
 
-- 엣지 로케이션 
+-&nbsp;엣지 로케이션 
 AWS 의 CloudFront (CDN) (임시저장공간) 등의 여러 서비스 들을 가장 빠른 속도로 제공(캐싱)하는 거점
 
 
 
 
-- Amazon Resource Name (ARN)
+-&nbsp;Amazon Resource Name (ARN)
 AWS 의 모든 리소스의 고유 아이디
 
 
 
-- AWS 유저
+-&nbsp;AWS 유저
 크게 루트 유저와 IAM 유저로 나뉜다.
 
 루트 유저 
@@ -56,4 +56,4 @@ Identity and Access Management (IAM) 을 통해 생성한 유저
 
 
 
-- 
+-&nbsp;
