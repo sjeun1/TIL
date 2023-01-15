@@ -37,6 +37,7 @@
   
 ## Network
   - [SSH](https://github.com/sjeun1/TIL/blob/main/Network/SSH.md)
+  - [네트워크스터디](https://github.com/sjeun1/TIL/blob/main/Network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%8A%A4%ED%84%B0%EB%94%94.md)
 
 ## Blog
   - [시스템 분석 설계1](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_1.md)
