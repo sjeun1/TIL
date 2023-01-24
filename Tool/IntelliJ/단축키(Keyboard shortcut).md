@@ -6,6 +6,8 @@
 Ctrl + alt + v :  optional <br>
 Ctrl + shift + t   :  create test <br>
 Ctrl + alt + shift + t   :  refactor this <br>
+Ctrl + alt + shift + s   :  project structure <br>
+Ctrl + alt +  s   :  settings <br>
 <br>
 alt + fn + insert  : 메서드 오버라이딩, 생성자 등 자동생성  <br>
 <br>
