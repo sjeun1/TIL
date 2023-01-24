@@ -8,6 +8,8 @@ Ctrl + shift + t   :  create test <br>
 Ctrl + alt + shift + t   :  refactor this <br>
 Ctrl + alt + shift + s   :  project structure <br>
 Ctrl + alt +  s   :  settings <br>
+Ctrl + alt +  m   :  refactor > extract method <br>
+shift +  f6   :  refactor > rename <br>
 <br>
 alt + fn + insert  : 메서드 오버라이딩, 생성자 등 자동생성  <br>
 <br>
@@ -15,6 +17,8 @@ Ctrl + Z : 되돌리기 <br>
 Ctrl + Shift + Z : 반대로 되돌리기 <br>
 Ctrl + Shift + ↑ : 코드 올리기 <br>
 Ctrl + Shift + ↓ : 코드 내리기 <br>
+alt + Shift + ↑ : 한 줄 씩 코드 올리기 <br>
+alt + Shift + ↓ : 한 줄 씩 코드 내리기 <br>
 <br>
 f2 : 오류가 난 코드 줄로 이동  <br>
 alt + enter : import  <br>
