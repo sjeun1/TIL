@@ -3,6 +3,7 @@
 
 ## SPRING 
   - [Spring Batch](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Batch.md)
+  - [의존성 주입(Dependency Injection)](https://github.com/sjeun1/TIL/blob/main/Spring/%EC%9D%98%EC%A1%B4%EC%84%B1%20%EC%A3%BC%EC%9E%85(Dependency%20Injection).md)
   
 ## JAVA
   - [Stream과 Lambda](https://github.com/sjeun1/TIL/blob/main/JAVA/Stream.md)
