@@ -9,7 +9,7 @@
   - [JVM (Java Virtual Machine)](https://github.com/sjeun1/TIL/blob/main/JAVA/JVM%20(Java%20Virtual%20Machine).md)
   - [String.ValueOf() & Object.toString()](https://github.com/sjeun1/TIL/blob/main/JAVA/String.ValueOf()%20%26%20Object.toString().md)
   - [System.lineSeparator() (= System.getProperty("line.separator"))](https://github.com/sjeun1/TIL/blob/main/JAVA/System.lineSeparator().md)
-  = [JPA 스터디](https://github.com/sjeun1/TIL/blob/main/Spring/JPA%EC%8A%A4%ED%84%B0%EB%94%94.md)
+  - [JPA 스터디](https://github.com/sjeun1/TIL/blob/main/Spring/JPA%EC%8A%A4%ED%84%B0%EB%94%94.md)
 
 ## Design Pattern
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
