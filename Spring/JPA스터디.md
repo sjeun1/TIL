@@ -1,7 +1,7 @@
 
 ## 스터디
-이름 : JPA 스터디
-기간 : 2023.03.05 ~ 
+이름 : JPA 스터디<br>
+기간 : 2023.03.05 ~ <br>
 <br>
 <br>
 
@@ -36,10 +36,12 @@ org.hibernate.orm.jdbc.bind: trace  // springboot 3.0.x 일때<br>
 string 타입으로 넣어야함<br>
 <br>
 
+```java
 @JoinTable(name = "category_item",
         joinColumns = @JoinColumn(name = "category_id"),
             inverseJoinColumns = @JoinColumn(name = "item_id")
-    )
+)
+```
 
 <br>
 inverseJoinColumns 이건 category_item 테이블에 item 쪽으로 들어가는 컬럼?을 매핑해주면 된다.<br>
