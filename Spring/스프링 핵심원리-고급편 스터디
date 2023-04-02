@@ -1,0 +1,14 @@
+## 스터디
+이름 : 스프링 핵심원리 고급편 <br>
+기간 : 2023.04.01 ~ <br>
+참고 강의 : https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%ED%95%B5%EC%8B%AC-%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8/dashboard <br>
+<br>
+<br>
+
+### 1주차 
+로그 추적기, 파라미터로 로그 추적기 동기화 개발 추가 <br>
+트랜잭션 ID, level => traceId 로 전달 <br>
+TOBE - 파라미터 동기화로 코드수정 증가 -> <br>
+HTTP 요청 구분을 위한 TraceId 동기화, controllerX 호출 시 넘길 파라미터 X <br>
+<br>
+<br>
