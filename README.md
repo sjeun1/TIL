@@ -10,6 +10,7 @@
   - [String.ValueOf() & Object.toString()](https://github.com/sjeun1/TIL/blob/main/JAVA/String.ValueOf()%20%26%20Object.toString().md)
   - [System.lineSeparator() (= System.getProperty("line.separator"))](https://github.com/sjeun1/TIL/blob/main/JAVA/System.lineSeparator().md)
   - [JPA 스터디](https://github.com/sjeun1/TIL/blob/main/Spring/JPA%EC%8A%A4%ED%84%B0%EB%94%94.md)
+  - [스프링 핵심원리-고급편 스터디](https://github.com/sjeun1/TIL/blob/main/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8%20%EC%8A%A4%ED%84%B0%EB%94%94.md)
 
 ## Design Pattern
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
