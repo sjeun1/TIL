@@ -18,34 +18,33 @@ MockBean 의 경우 Mock 객체들을 ApplicatiionContext 넣어주고 동일한
 Spring Boot Container 가 필요할 때 Bean 이 Container 에 존재해야 한다면 @MockBean 을 사용. <br>
 <br>
 
-### JUnit4 &nbsp;&nbsp; /&nbsp;&nbsp; JUnit5
-@RunWith(SpringRunner.class) &nbsp;&nbsp; /&nbsp;&nbsp; @ExtendWith(SpringExtension.class)<br>
+### @RunWith(SpringRunner.class) &nbsp;&nbsp; /&nbsp;&nbsp; @ExtendWith(SpringExtension.class)<br>
 : 테스트 실행 방법을 확장할 때 사용<br>
-<br>
+
 
 ### @BeforeClass (JUnit4) &nbsp;&nbsp; /&nbsp;&nbsp; @BeforeAll (JUnit5)
 : 테스트 클래스의 모든 테스트 메서드 실행 되기 전에 실행<br>
-<br>
+
 
 ### @AfterClass (JUnit4) &nbsp;&nbsp; /&nbsp;&nbsp; @AfterAll (JUnit5)
 : 테스트 클래스의 모든 테스트 메서드 실행 된 후에 실행<br>
-<br>
+
 
 ### @Before (JUnit4) &nbsp;&nbsp; /&nbsp;&nbsp; @BeforeEach (JUnit5)
 : 테스트 클래스의 각 테스트 메서드를 실행 하기 전에 실행<br>
-<br>
+
 
 ### @After (JUnit4) &nbsp;&nbsp; /&nbsp;&nbsp; @AfterEach (JUnit5)
 : 테스트 클래스의 테스트 메서드가 실행 된 후에 실행<br>
-<br>
+
 
 ### @Ignore (JUnit4) &nbsp;&nbsp; /&nbsp;&nbsp; @Disabled (JUnit5)
 : 테스트 클래스 또는 메서드를 비활성화할 때 사용<br>
-<br>
+
 
 ### @Test (공통)
 : 클래스의 테스트 케이스. 4에서는 public 선언, 5에서는 public 간주하므로 선언 X<br>
-<br>
+
 
 
 
