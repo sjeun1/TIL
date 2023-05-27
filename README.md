@@ -32,6 +32,7 @@
   - [시스템 분석 설계2](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_2.md)
   - [AWS 공부 간단 정리](https://github.com/sjeun1/TIL/blob/main/Blog/AWS%EA%B3%B5%EB%B6%80%EB%A9%94%EB%AA%A8.md)
   - [AWS 실습내용](https://github.com/sjeun1/TIL/blob/main/memo/aws%EC%8B%A4%EC%8A%B5%EB%A9%94%EB%AA%A8.md)
+  - [자바 성능 튜닝 이야기](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
 
 ## WEB / Network
   - [Cookie 와 Session](https://github.com/sjeun1/TIL/blob/main/WEB/Cookie%20%EC%99%80%20Session.md)
