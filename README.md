@@ -33,6 +33,7 @@
   - [AWS 공부 간단 정리](https://github.com/sjeun1/TIL/blob/main/Blog/AWS%EA%B3%B5%EB%B6%80%EB%A9%94%EB%AA%A8.md)
   - [AWS 실습내용](https://github.com/sjeun1/TIL/blob/main/memo/aws%EC%8B%A4%EC%8A%B5%EB%A9%94%EB%AA%A8.md)
   - [자바 성능 튜닝 이야기](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
+  - [함께자라기 애자일로 가는길](https://github.com/sjeun1/TIL/blob/main/Book/%ED%95%A8%EA%BB%98%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%EA%B8%B8.md)
 
 ## WEB / Network
   - [Cookie 와 Session](https://github.com/sjeun1/TIL/blob/main/WEB/Cookie%20%EC%99%80%20Session.md)
