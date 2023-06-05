@@ -37,14 +37,13 @@ Young 영역에서 발생하는 GC 를 마이너GC, old나 perm 영역에서 발
 Minor GC 는 빠른데 Major GC 는 느려서 여기서 STW가 발생한다. <br>
 <br>
 <br>
-<br>
 #### 5가지 GC 방식
--&nbsp;Serial Collector
--&nbsp;Parallel Collector
--&nbsp;Parallel Compacting Collector
--&nbsp;Conccurrent Mark-Sweep Collector
--&nbsp;Garbage First Collector
-<br>
+-&nbsp;Serial Collector<br>
+-&nbsp;Parallel Collector<br>
+-&nbsp;Parallel Compacting Collector<br>
+-&nbsp;Conccurrent Mark-Sweep Collector<br>
+-&nbsp;Garbage First Collector<br>
+<br><br>
 
 ### GC 의 성능을 높이는 방법 
 #### 1. 설정을 변경하여 GC 의 성능을 높이는 방법<br>
