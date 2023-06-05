@@ -14,9 +14,10 @@ GC 의 단점은 메모리가 언제 해제되는 지 정확하게 알 수 없�
 <br>
 
 #### Heap 메모리 구조
-Heap 메모리의 구조는 Young과 Old 총 2가지 영역으로 되어있다. <br>
+Heap 메모리의 구조는 Young과 Old 총 3가지 영역으로 되어있다. <br>
 **-&nbsp;Young 영역** : 새롭게 생성된 객체가 할당.<br>
 **-&nbsp;Old 영역** :  young 영역에서 오래 남아 있는 객체들. young 영역보다 크게 할당됨<br>
+**-&nbsp;Perm 영역** : 없는 영역으로 넘겨도됨. 자바 언어 레벨에서 사용하는 영역이 아님, JDK8 에서는 사라짐<br>
 <br>
 
 #### Young 영역
@@ -30,10 +31,19 @@ young 영역은 효율적인 GC 를 위해 Eden, survivor0, suvivor1로 나눠�
 <br>
 
 #### young 영역에서의 동작 방식
-새로운 객체가 Eden 영역 생성-> Eden 영역이 다차면 GC 가 동작(Minor GC) -> 살아남은 객체가 Survivor0 이동-> survivor0 이 꽉차면 0에서 GC 동작-> 살아남은 객체들 survivor1로 이동-> 살아남은 객체 Heap 의 Old 로 이동-> Old 영역이 다차면 Old 영역에 대한 GC (Major GC 또는 Full GC) 가 실행.
+새로운 객체가 Eden 영역 생성-> Eden 영역이 다차면 GC 가 동작(Minor GC) -> 살아남은 객체가 Survivor0 이동-> survivor0 이 꽉차면 0에서 GC 동작-> 살아남은 객체들 survivor1로 이동-> 살아남은 객체 Heap 의 Old 로 이동-> Old 영역이 다차면 Old 영역에 대한 GC (Major GC 또는 Full GC) 가 실행이 일반적인 동작방식이다.<br>
+그런데 Survivor 영역을 거치지 않고 바로 old 영역으로 이동하는 객체가 있을 수 있는데, 해당 경우는 객체의 크기가 아주 큰 경우에는 바로 old 영역으로 이동하게 된다.<br>
+Young 영역에서 발생하는 GC 를 마이너GC, old나 perm 영역에서 발생하는 GC를 메이저GC 라고 한다. <br>
 Minor GC 는 빠른데 Major GC 는 느려서 여기서 STW가 발생한다. <br>
 <br>
 <br>
+<br>
+#### 5가지 GC 방식
+-&nbsp;Serial Collector
+-&nbsp;Parallel Collector
+-&nbsp;Parallel Compacting Collector
+-&nbsp;Conccurrent Mark-Sweep Collector
+-&nbsp;Garbage First Collector
 <br>
 
 ### GC 의 성능을 높이는 방법 
