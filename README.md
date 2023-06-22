@@ -44,6 +44,7 @@
   - [Trigger](https://github.com/sjeun1/TIL/blob/main/Database/Trigger.md)
   - [Partitioning](https://github.com/sjeun1/TIL/blob/main/Database/Partitioning.md)
   - [DB 인덱싱 이유와 원리 + 내부구조](https://github.com/sjeun1/TIL/blob/main/Database/DB%20%EC%9D%B8%EB%8D%B1%EC%8B%B1%20%EC%9D%B4%EC%9C%A0%EC%99%80%20%EC%9B%90%EB%A6%AC%20+%20%EB%82%B4%EB%B6%80%EA%B5%AC%EC%A1%B0.md)
+  - [ANALYZE TABLE](https://github.com/sjeun1/TIL/blob/main/Database/ANALYZE%C2%A0TABLE.md)
 
 ## Tool
   - IntelliJ
