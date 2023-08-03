@@ -26,14 +26,15 @@
   - [Programmers](https://github.com/sjeun1/TIL/tree/main/Programmers)
 
 ## 도서 / Blog 정리 / 필기,메모
-  - [객체지향의 사실과 오해](https://github.com/sjeun1/TIL/blob/main/Book/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98%20%EC%82%AC%EC%8B%A4%EA%B3%BC%20%EC%98%A4%ED%95%B4.md)
-  - [클린코드(Clean Code)](https://github.com/sjeun1/TIL/blob/main/Book/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C(Clean%20Code).md)
-  - [시스템 분석 설계1](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_1.md)
-  - [시스템 분석 설계2](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_2.md)
-  - [AWS 공부 간단 정리](https://github.com/sjeun1/TIL/blob/main/Blog/AWS%EA%B3%B5%EB%B6%80%EB%A9%94%EB%AA%A8.md)
-  - [AWS 실습내용](https://github.com/sjeun1/TIL/blob/main/memo/aws%EC%8B%A4%EC%8A%B5%EB%A9%94%EB%AA%A8.md)
-  - [자바 성능 튜닝 이야기](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
-  - [함께자라기 애자일로 가는길](https://github.com/sjeun1/TIL/blob/main/Book/%ED%95%A8%EA%BB%98%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%EA%B8%B8.md)
+  - [객체지향의 사실과 오해_book](https://github.com/sjeun1/TIL/blob/main/Book/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98%20%EC%82%AC%EC%8B%A4%EA%B3%BC%20%EC%98%A4%ED%95%B4.md)
+  - [클린코드(Clean Code)_book](https://github.com/sjeun1/TIL/blob/main/Book/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C(Clean%20Code).md)
+  - [시스템 분석 설계1_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_1.md)
+  - [시스템 분석 설계2_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_2.md)
+  - [AWS 공부 간단 정리_memo](https://github.com/sjeun1/TIL/blob/main/Blog/AWS%EA%B3%B5%EB%B6%80%EB%A9%94%EB%AA%A8.md)
+  - [AWS 실습내용_memo](https://github.com/sjeun1/TIL/blob/main/memo/aws%EC%8B%A4%EC%8A%B5%EB%A9%94%EB%AA%A8.md)
+  - [자바 성능 튜닝 이야기_book](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
+  - [함께자라기 애자일로 가는길_book](https://github.com/sjeun1/TIL/blob/main/Book/%ED%95%A8%EA%BB%98%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%EA%B8%B8.md)
+  - [synchronized와 lock_memo](https://github.com/sjeun1/TIL/blob/main/memo/synchronized와%20lock.md)
 
 ## WEB / Network
   - [Cookie 와 Session](https://github.com/sjeun1/TIL/blob/main/WEB/Cookie%20%EC%99%80%20Session.md)
