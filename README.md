@@ -15,6 +15,7 @@
   - [스프링 핵심원리-고급편 스터디](https://github.com/sjeun1/TIL/blob/main/Spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%ED%95%B5%EC%8B%AC%EC%9B%90%EB%A6%AC-%EA%B3%A0%EA%B8%89%ED%8E%B8%20%EC%8A%A4%ED%84%B0%EB%94%94.md)
   - [원시타입과 참조타입](https://github.com/sjeun1/TIL/blob/main/JAVA/%EC%9B%90%EC%8B%9C%ED%83%80%EC%9E%85%EA%B3%BC%20%EC%B0%B8%EC%A1%B0%ED%83%80%EC%9E%85.md)
   - [GC (garbage collection)](https://github.com/sjeun1/TIL/blob/main/JAVA/GC(garbage%20collection).md)
+  - [AOP (Aspect-Oriented Programming)](https://github.com/sjeun1/TIL/blob/main/Spring/AOP.md)
 
 ## Design Pattern
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
