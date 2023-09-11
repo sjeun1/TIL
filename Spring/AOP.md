@@ -15,3 +15,6 @@ oop 를 보완하는 수단으로 흩어진 aspect 를 모듈화 할 수 있는 
 - 런타임
  
 aop 구현체는 자바에서는 aspectJ, 스프링 aop 가 있다.
+
+
+관련문서 : https://docs.spring.io/spring-framework/reference/core/aop.html
