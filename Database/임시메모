@@ -1,0 +1,16 @@
+
+
+
+오류 
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+; SQL []; Lock wait timeout exceeded; try restarting transaction; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+
+
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+### The error may involve ...Mapper.updateAll-Inline
+### The error occurred while setting parameters
+### SQL: update tb    SET data = ? where update_data in (?,? ... ) ;
+
+
+\
