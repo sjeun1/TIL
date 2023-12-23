@@ -25,6 +25,7 @@
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
     - [Singleton Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Singleton%20Pattern.md)
     - [Builder Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Builder%20Pattern.md)
+    - [Proxy pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Proxy%20pattern.md)
   
 ## 알고리즘 / 자료구조 / 문제풀이
   - [Stack](https://github.com/sjeun1/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Stack.md)
@@ -40,6 +41,7 @@
   - [자바 성능 튜닝 이야기_book](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
   - [함께자라기 애자일로 가는길_book](https://github.com/sjeun1/TIL/blob/main/Book/%ED%95%A8%EA%BB%98%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%EA%B8%B8.md)
   - [synchronized와 lock_memo](https://github.com/sjeun1/TIL/blob/main/memo/synchronized와%20lock.md)
+  - [정리(틈틈히읽어보기)_memo](https://github.com/sjeun1/TIL/blob/main/memo/%EC%A0%95%EB%A6%AC.md)
 
 ## WEB / Network
   - [Cookie 와 Session](https://github.com/sjeun1/TIL/blob/main/WEB/Cookie%20%EC%99%80%20Session.md)
