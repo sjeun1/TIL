@@ -27,3 +27,24 @@ AWS LAMBDA - 인스턴스 신경안쓰고 코드만으로 모든 걸 함. 서버
 <br>
 ami<br>
 오토스케일링할때?<br>
+
+
+<br>
+### pem 키 <br />
+mkdir ~/.ssh   (복사 하기 전에 디렉토리 만들어야함)<br />
+cp ~/Downloads/aws_test.pem ~/.ssh/    (복사) <br />
+chmod 600 ~/.ssh/{pem키이름} <br />
+mkdir config 해서 config 생성하고 실행까지 해야하므로 chmod 700으로 경로 설정<br />
+
+vim ~/.ssh/config<br />
+
+```
+Host {host접속명령어}   (ex. Host a 라고 등록해두면 ssh a 로 해당 EC2 로 접속할 수 있음)
+Hostname {탄력적IP주소}
+IdentityFile ~/.ssh/{pem키이름}
+```
+
+
+
+
+
