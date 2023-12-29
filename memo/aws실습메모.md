@@ -41,6 +41,7 @@ vim ~/.ssh/config<br />
 ```
 Host {host접속명령어}   (ex. Host a 라고 등록해두면 ssh a 로 해당 EC2 로 접속할 수 있음)
 Hostname {탄력적IP주소}
+User ec2-user
 IdentityFile ~/.ssh/{pem키이름}
 ```
 
