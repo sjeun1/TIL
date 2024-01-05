@@ -21,6 +21,7 @@
   - [ForkJoinPool](https://github.com/sjeun1/TIL/blob/main/JAVA/ForkJoinPool.md)
   - [Compile 과 implementation](https://github.com/sjeun1/TIL/blob/main/Spring/Compile%20%EA%B3%BC%20implementation%20.md)
   - [@SuperBuilder](https://github.com/sjeun1/TIL/blob/main/Spring/%40SuperBuilder.md)
+  - [BeanUtils.copyProperties](https://github.com/sjeun1/TIL/blob/main/JAVA/BeanUtils.copyProperties.md)
 
 ## Design Pattern
   - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
