@@ -5,6 +5,7 @@
 클라이언트가 실제 객체에 직접 접근하는 대신 프록시 객체를 통해 간접적으로 접근한다. <br>
 직접호출 : client->server<br>
 간접호출 : client->proxy->server<br>
+프록시체인 : client->proxy1->proxy2->server<br>
 프록시 객체는 실제 객체와 같은 인터페이스를 구현하며, 클라이언트는 프록시를 통해 실제 객체에 접근한다. <br>
 <br>
 
