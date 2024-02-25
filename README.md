@@ -39,7 +39,7 @@
   - [클린코드(Clean Code)_book](https://github.com/sjeun1/TIL/blob/main/Book/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C(Clean%20Code).md)
   - [자바 성능 튜닝 이야기_book](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
   - [함께자라기 애자일로 가는길_book](https://github.com/sjeun1/TIL/blob/main/Book/%ED%95%A8%EA%BB%98%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%EA%B8%B8.md)
-  - [육각형 개발자](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9C%A1%EA%B0%81%ED%98%95%EA%B0%9C%EB%B0%9C%EC%9E%90.md)
+  - [육각형 개발자_book](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9C%A1%EA%B0%81%ED%98%95%EA%B0%9C%EB%B0%9C%EC%9E%90.md)
   - [시스템 분석 설계1_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_1.md)
   - [시스템 분석 설계2_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_2.md)
   - [AWS 공부 간단 정리_memo](https://github.com/sjeun1/TIL/blob/main/Blog/AWS%EA%B3%B5%EB%B6%80%EB%A9%94%EB%AA%A8.md)
