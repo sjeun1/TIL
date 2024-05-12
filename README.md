@@ -49,6 +49,8 @@
   - [정리(틈틈히읽어보기)_memo](https://github.com/sjeun1/TIL/blob/main/memo/%EC%A0%95%EB%A6%AC.md)
 
 ## WEB / Network
+  - [proxy](https://github.com/sjeun1/TIL/blob/main/WEB/Proxy.md)
+  - [nginx](https://github.com/sjeun1/TIL/blob/main/WEB/nginx.md)
   - [도메인 변경](https://github.com/sjeun1/TIL/blob/main/WEB/domain%EB%B3%80%EA%B2%BD.md)
   - [Cookie 와 Session](https://github.com/sjeun1/TIL/blob/main/WEB/Cookie%20%EC%99%80%20Session.md)
   - [SSH](https://github.com/sjeun1/TIL/blob/main/Network/SSH.md)
