@@ -23,16 +23,17 @@
   - [@SuperBuilder](https://github.com/sjeun1/TIL/blob/main/Spring/%40SuperBuilder.md)
   - [null check](https://github.com/sjeun1/TIL/blob/main/Spring/null%20check.md)
   - [BeanUtils.copyProperties](https://github.com/sjeun1/TIL/blob/main/JAVA/BeanUtils.copyProperties.md)
-
-## Design Pattern
-  - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
-    - [Singleton Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Singleton%20Pattern.md)
-    - [Builder Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Builder%20Pattern.md)
-    - [Proxy pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Proxy%20pattern.md)
   
-## 알고리즘 / 자료구조 / 문제풀이
+## CS (운영체제 / 알고리즘 / 자료구조 / 소프트웨어 공학 / 문제풀이 등)
+  = [프로세스와 스레드](https://github.com/sjeun1/TIL/blob/main/CS/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
+  - [시스템 분석 설계1_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_1.md)
+  - [시스템 분석 설계2_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_2.md)
   - [Stack](https://github.com/sjeun1/TIL/blob/main/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Stack.md)
   - [Programmers](https://github.com/sjeun1/TIL/tree/main/Programmers)
+  - [Design Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Design%20Pattern.md)
+  - [Singleton Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Singleton%20Pattern.md)
+  - [Builder Pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Builder%20Pattern.md)
+  - [Proxy pattern](https://github.com/sjeun1/TIL/blob/main/Design%20Pattern/Proxy%20pattern.md)
 
 ## 도서 / Blog 정리 / 필기,메모
   - [객체지향의 사실과 오해_book](https://github.com/sjeun1/TIL/blob/main/Book/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%EC%9D%98%20%EC%82%AC%EC%8B%A4%EA%B3%BC%20%EC%98%A4%ED%95%B4.md)
@@ -40,8 +41,6 @@
   - [자바 성능 튜닝 이야기_book](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9E%90%EB%B0%94%20%EC%84%B1%EB%8A%A5%20%ED%8A%9C%EB%8B%9D%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
   - [함께자라기 애자일로 가는길_book](https://github.com/sjeun1/TIL/blob/main/Book/%ED%95%A8%EA%BB%98%EC%9E%90%EB%9D%BC%EA%B8%B0%20%EC%95%A0%EC%9E%90%EC%9D%BC%EB%A1%9C%20%EA%B0%80%EB%8A%94%EA%B8%B8.md)
   - [육각형 개발자_book](https://github.com/sjeun1/TIL/blob/main/Book/%EC%9C%A1%EA%B0%81%ED%98%95%EA%B0%9C%EB%B0%9C%EC%9E%90.md)
-  - [시스템 분석 설계1_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_1.md)
-  - [시스템 분석 설계2_blog](https://github.com/sjeun1/TIL/blob/main/Blog/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B6%84%EC%84%9D%20%EC%84%A4%EA%B3%84_2.md)
   - [AWS 공부 간단 정리_memo](https://github.com/sjeun1/TIL/blob/main/Blog/AWS%EA%B3%B5%EB%B6%80%EB%A9%94%EB%AA%A8.md)
   - [AWS 실습내용_memo](https://github.com/sjeun1/TIL/blob/main/memo/aws%EC%8B%A4%EC%8A%B5%EB%A9%94%EB%AA%A8.md)
   - [synchronized와 lock_memo](https://github.com/sjeun1/TIL/blob/main/memo/synchronized와%20lock.md)
