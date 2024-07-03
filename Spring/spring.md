@@ -69,3 +69,29 @@ DispatcherServlet 의 type hierarchy
  Meta annotation 
 
 
+—————————————————
+
+
+@Conditional
+컴포넌트의 Bean 구성정보에 등록 여부에 조건을 달 수 있게하는 어노테이션. <br>
+Conditions 은 class level , bean level 에서 사용할 수 있다. (@ConditionalOnClass, @ConditionalOnBean)
+
+Conditional 과 matches 를 @override 해서 tomcat 을 띄울지 jetty 를 띄울지 컨트롤 할수 있다.  <br>
+
+Conditional test 할 때 빈 가져오는 코드에서 ac.getBean(Bean.class); 으로 해서 빈을 가져와서 테스트 해도 괜찮지만 ApplicationContextRunner 를 사용해서 가져오는 것도 좋음 <br>
+Before
+```
+Bean bean = ac.getBean(Bean.class);
+```
+After
+```
+contextRunner.withUserConfiguration(Config.class)
+.run(context -> {
+	assertThat(context).hasSingleBean(Bean.class);
+	});
+```
+hasSingleBean : 빈이 포함되는지
+doesNotHaveBean  : 빈이 포함되어 있지않는지
+
+
+—————————————————
