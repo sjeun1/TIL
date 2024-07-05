@@ -95,3 +95,10 @@ doesNotHaveBean  : 빈이 포함되어 있지않는지
 
 
 —————————————————
+
+Properties 설정할 때 어느한 쪽에 propertie를 지정해두었다고 해서 우선순위가 더 높은 쪽이 먼저 사용되기 때문에   custom 으로 넣은 properties 는 후순위로 적용된다.<br>
+
+Environment Abstraction properties 로 써칭해서 순서를 확인해보기 @PropertySource,Application.properties<br>
+
+prefix를 단 property 클래스들을 만들어 놓고 이걸 자동 구성 configuration 클래스에서 가져다가 자동 구성의 default 값을 오버라이드 해서 세밀한 설정을 가능하게 한다. <br>
+Spring boot 자동 구성을 볼때 property 클래스를 확인해보고 property는 유저 구성 정보로 등록되는 애플리케이션 쪽에서도 자주 활용된다 <br>
