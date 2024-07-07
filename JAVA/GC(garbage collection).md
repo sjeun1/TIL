@@ -42,8 +42,9 @@ Minor GC 는 빠른데 Major GC 는 느려서 여기서 STW가 발생한다. <br
 -&nbsp;Parallel GC : Java 8에서 Default GC 로 Serial GC보다 STW 시간이 훨씬 짧다. Parallel GC는 Minor GC를 처리하는 스레드를 여러 개로 늘려 병렬로 처리하여 Serial GC보다 훨씬 빠르게 동작하는 방식이다. ( Old 영역 X)
 <br>
 -&nbsp;Parallel Old GC (Parallel Compacting Collector) : Parallel Old GC는 Old 영역까지 멀티스레드 방식을 사용한다.<br>
--&nbsp;CMS GC (Conccurrent Mark-Sweep Collector)<br>
--&nbsp;G1 GC(Garbage First Collector)<br>
+-&nbsp;CMS GC (Conccurrent Mark-Sweep Collector) : Stop The World로 자바 어플리케이션이 멈추는 현상을 줄이고자 만든 GC <br>
+-&nbsp;G1 GC(Garbage First Collector) : Java 9+ 에서 Default GC (Oracle JDK 7 update 4 이상 릴리즈에서 지원은 가능). 현재 GC 중 STW의 시간이 제일 짧다. 앞에 나왔던 GC들과는 다르게 Eden, Survivor, Old 영역이 고정된 크기가 아니며 전체 힙 메모리 영역을 Region이라는 특정한 크기로 나눈다.
+Region의 상태에 따라 그 Region의 역할(Eden, Survivor, Old)가 동적으로 변동한다.
 <br><br>
 
 ### GC 의 성능을 높이는 방법 
