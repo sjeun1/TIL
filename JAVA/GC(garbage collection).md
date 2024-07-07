@@ -38,11 +38,12 @@ Minor GC 는 빠른데 Major GC 는 느려서 여기서 STW가 발생한다. <br
 <br>
 <br>
 #### 5가지 GC 방식
--&nbsp;Serial Collector<br>
--&nbsp;Parallel Collector<br>
--&nbsp;Parallel Compacting Collector<br>
--&nbsp;Conccurrent Mark-Sweep Collector<br>
--&nbsp;Garbage First Collector<br>
+-&nbsp;Serial GC : 싱글 스레드로 동작하는 GC 방식이다. 그만큼 느리고 STW 시간도 다른 GC에 비해 길다. 보통 실무에서 사용하는 경우는 없고 다만 CPU가 1코어인 경우에만 사용된다. <br> 
+-&nbsp;Parallel GC : Java 8에서 Default GC 로 Serial GC보다 STW 시간이 훨씬 짧다. Parallel GC는 Minor GC를 처리하는 스레드를 여러 개로 늘려 병렬로 처리하여 Serial GC보다 훨씬 빠르게 동작하는 방식이다. ( Old 영역 X)
+<br>
+-&nbsp;Parallel Old GC (Parallel Compacting Collector) : Parallel Old GC는 Old 영역까지 멀티스레드 방식을 사용한다.<br>
+-&nbsp;CMS GC (Conccurrent Mark-Sweep Collector)<br>
+-&nbsp;G1 GC(Garbage First Collector)<br>
 <br><br>
 
 ### GC 의 성능을 높이는 방법 
@@ -81,4 +82,9 @@ MutableHolder Minor GC에 대한 검사를 하지 않아도 되므로, 스캔의
 * 그 외에도 side Effect 방지, Thread-Safe 하여 병렬 프로그래밍 유용(동기화고려X) 등의 이유로 불변객체, final 을 사용하는게 좋음 (이펙티브자바에도 관련내용 나옴)<br>
 <br>
 
+
+
+
+참고 : https://d2.naver.com/helloworld/1329
+https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC
 
