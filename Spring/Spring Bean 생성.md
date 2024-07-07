@@ -41,9 +41,21 @@ component 는 구성요소라는 뜻으로 독립적인 단위 모듈을 말한�
 해당 어노테이션이 있는 클래스들을 찾아서 자동으로 빈 등록하는 방식<br>
 스프링이 권장하는 ComponentScan 을 이용한 자동 빈 방식<br>
 -&nbsp;직접 개발한 클래스 일 때 권장 <br>
--&nbsp;@Component 를 이용시 Main이나 App 클래스에서 @ComponentScan 으로 컴포넌트를 찾는 탐색 범위를 지정해주어야 함. <br>
+-&nbsp;@Component 를 이용시 Main이나 App 클래스에서 @ComponentScan 으로 컴포넌트를 찾는 탐색 범위를 지정해주어야 함. (ex.@ComponentScan(basePackages = "com.example")) <br>
 -&nbsp;Config 파일에서 @ComponentScan 사용 시 basePackages 보다 basePackageClasses를 사용해서 애플리케이션이 위치한 곳부터 component scan 을 해서 좀 더 type safety 하다. 
 SpringBoot 사용 시에는 @SpringBootConfiguration 하위에 포함되어있어 해당 사항 없음<br>
+```
+package com.example;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyService {
+    public void AService() {
+        System.out.println("");
+    }
+}
+```
 <br>
 
 #### 3. @SpringBootApplication
