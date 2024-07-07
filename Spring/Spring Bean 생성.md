@@ -68,9 +68,13 @@ public class MyService {
 -&nbsp;빈으로 등록되면 장점<br>
 싱글톤으로 객체를 만들어 관리하고 싶을 때도 IoC 컨테이너를 사용하면 편리<br>
 의존성 관리 하기 좋음<br>
-<br>
+<br><br>
 
 
+스프링 MVC 에서는 @Controller, @Service, @Repository 등으로 빈을 등록할 수 있고 configuration 관련 객체들은 @Bean, @Component 로 스프링 컨테이너에 객체를 빈으로 등록 할 수 있다. <br>
 
+#### Component 와 bean 의 차이점 
+Component : 클래스에서 사용. 반환되는 객체(인스턴스)를 개발자가 수동으로 빈으로 등록하는 어노테이션이다.<br>
+Bean : 메소드에서 사용. 스프링이 런타임 시에 컴포넌트스캔하여 자동으로 빈을 찾고 등록하는 어노테이션이다.<br>
 
 
