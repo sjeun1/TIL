@@ -2,6 +2,7 @@
 
 
 ## JAVA / SPRING 
+  - [Basic 과 Bearer Authentication 방식](https://github.com/sjeun1/TIL/blob/main/JAVA/Basic%20%EA%B3%BC%20Bearer%20Authentication.md)
   - [Spring Batch](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Batch.md)
   - [Spring Security](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Security.md)
   - [Spring(memo)](https://github.com/sjeun1/TIL/blob/main/Spring/spring.md)
