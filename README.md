@@ -3,6 +3,7 @@
 
 ## JAVA / SPRING 
   - [Basic 과 Bearer Authentication 방식](https://github.com/sjeun1/TIL/blob/main/JAVA/Basic%20%EA%B3%BC%20Bearer%20Authentication.md)
+  - [@transactional](https://github.com/sjeun1/TIL/blob/main/JAVA/%40transactional.md)
   - [Spring Batch](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Batch.md)
   - [Spring Security](https://github.com/sjeun1/TIL/blob/main/Spring/Spring%20Security.md)
   - [Spring(memo)](https://github.com/sjeun1/TIL/blob/main/Spring/spring.md)
@@ -65,6 +66,7 @@
   - [네트워크스터디](https://github.com/sjeun1/TIL/blob/main/Network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EC%8A%A4%ED%84%B0%EB%94%94.md)
   
 ## Database
+  - [트랜잭션 (transaction)](https://github.com/sjeun1/TIL/blob/main/Database/transaction.md)
   - [Trigger](https://github.com/sjeun1/TIL/blob/main/Database/Trigger.md)
   - [Partitioning](https://github.com/sjeun1/TIL/blob/main/Database/Partitioning.md)
   - [DB 인덱싱 이유와 원리 + 내부구조](https://github.com/sjeun1/TIL/blob/main/Database/DB%20%EC%9D%B8%EB%8D%B1%EC%8B%B1%20%EC%9D%B4%EC%9C%A0%EC%99%80%20%EC%9B%90%EB%A6%AC%20+%20%EB%82%B4%EB%B6%80%EA%B5%AC%EC%A1%B0.md)
