@@ -10,7 +10,7 @@
 - Isolation (격리성): 동시에 실행되는 트랜잭션들은 서로의 중간 상태를 볼 수 없고, 각각의 트랜잭션은 독립적으로 수행된다. <br>
 - Durability (지속성): 트랜잭션이 완료된 후에는 시스템 오류가 발생하더라도 그 결과는 영구적으로 반영되어야 한다. <br>
 
-Java에서는 @Transactional 어노테이션을 사용해 트랜잭션을 쉽게 관리할 수 있다.<br>
+Java에서는 [@Transactional](https://github.com/sjeun1/TIL/blob/main/JAVA/%40transactional.md) 어노테이션을 사용해 트랜잭션을 쉽게 관리할 수 있다. <br>
 <br>
 
 ### 트랜잭션 격리수준 
