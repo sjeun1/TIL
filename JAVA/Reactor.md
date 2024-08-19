@@ -52,8 +52,12 @@ Publisher 가 끊임없이 emit 하는 무수히 많은 데이터를 적절하�
 ### sink 
 Sinks 는 리액티브 스트림즈의 signal 을 프로그래밍 방식으로 푸시할 수 있는 구조로, Flux 나 Mono 의 의미 체계를 가진다. <br>
 Flux 나 Mono 가 onNext 같은 Signal 을 내부적으로 전송해주는 방식이었는데, sinks 를 사용하면 프로그래밍 소스를 통해 명시적으로 signal 을 전송할 수 있다. <br>
+Sinks 종류로는 Sinks.One 과 Sinks.Many 를 사용하는 방법이 있다.  <br>
+한 건의 데이터를 전송하는 방법을 정의해 둔 기능 명세이다.  <br>
+여러 건의 데이터를 여러가지 방식으로 전송하는 기능을 정의해 둔 기능 명세이다.  <br>
 <br>
-sink 예시 코드 
+
+### backpressure / sink 예시 코드 
 ```java
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Sinks;
