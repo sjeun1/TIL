@@ -98,6 +98,17 @@ public class ReactorExample {
 }
 ```
 
+### Scheduler
+OS level 에서의 Scheduler 는 실행되는 프로그램인 프로세스를 선택하고 실행하는 등 프로세스의 라이프사이클을 관리해주는 관리자 역할이지만, <br>
+Reactor 에서 사용되는 Scheduler 는 Reactor Sequence 에서 사용되는 스레드를 관리해주는 관리자 역할이다. <br>
+Scheduler Operator 는 세가지가 있다. 
+- subscribeOn() Operator : 구독이 발생한 직후 실행될 스레드를 지정하는 Operator 이다. 동시성을 가지는 논리적인 스레드에 해당한다. 
+- publishOn() Operator : Downstream 으로 singal 을 전송할 떄 실행되는 스레드를 제어하는 역할을 하는 operator 이다. 동시성을 가지는 논리적인 스레드에 해당한다. 
+- parallel() Operator : 라운드 로빈 방식으로 CPU 코어 개수만큼의 스레드를 병렬로 실행한다. 병렬성을 가지는 물리적인 스레드에 해당된다. 
+
+물리적인 스레드 = 병렬성 = 실제로 동시에 실행되기 때문에 여러작업을 동시에 처리<br>
+논리적인 스레드 = 동시성 = 동시에 실행되는 것처럼 보이도록 처리 <br>
+
 
 <br><br><br><br><br>
 
