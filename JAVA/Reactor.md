@@ -110,6 +110,64 @@ Scheduler Operator 는 세가지가 있다.
 논리적인 스레드 = 동시성 = 동시에 실행되는 것처럼 보이도록 처리 <br>
 
 
+```java
+import reactor.core.publisher.Flux;
+import reactor.core.scheduler.Schedulers;
+
+public class ReactorSchedulerExample {
+
+    public static void main(String[] args) throws InterruptedException {
+        Flux.range(1, 10)
+            .map(i -> {
+                System.out.println("Mapping on thread: " + Thread.currentThread().getName());
+                return i * 2;
+            })
+            .publishOn(Schedulers.parallel())  // 이후의 작업들을 parallel 스케줄러에서 실행하도록 지정. parallel 스케줄러는 기본적으로 스레드 풀을 사용하여 작업을 병렬로 수행
+            .map(i -> {
+                System.out.println("Mapping on parallel thread: " + Thread.currentThread().getName());
+                return i + 1;
+            })
+            .subscribeOn(Schedulers.boundedElastic())  // 전체 시퀀스가 boundedElastic 스케줄러에서 시작되도록 설정. boundedElastic 스케줄러는 필요에 따라 스레드 풀을 확장하는 특징이 있음.
+            .subscribe(i -> System.out.println("Received: " + i + " on thread: " + Thread.currentThread().getName())); // 최종적으로 데이터를 소비하며, 이 작업이 실행되는 스레드를 출력
+
+        Thread.sleep(1000);
+    }
+}
+```
+- Scheduler.immediate() : 별도 스레드를 추가 생성없이 현재 스레드에서 작업을 처리한다. 
+- Scheduler.single() : 스레드 하나만 생성해서 Scheduler 가 제거되기 전까지 재사용한다.
+- Scheduler.boundedElastic() : Blocking I/O 작업에 최적화 되어있다. ExecutorService 기반의 스레드 풀을 생성한 후, 그 안에서 정해진 수만큼의 스레드를 사용하고 작업이 종료된 스레드는 반납하여 재사용한다.
+- Scheduler.parallel() : Non-Blocking I/O 에 최적화되어 있는 Scheduler 로서 CPU 코어 수만큼의 스레드를 생성한다.  
+- Scheduler.newSingle() / Scheduler.newBoundedElastic() / Scheduler.newParallel() : 메서드를 사용해서 새로운 Scheduler 인스턴스를 생성할 수 있다.
+
+
+### Context
+Reactor 의 Context 는 Operator 같은 Reactor 구성 요소 간에 전파되는 key / value 형태의 저장소이다. <br>
+*전파는 Downstream 에서 upstream 으로 context 가 전파되어 Operator 체인 상의 각 Operator 가 해당 context 의 정보를 동일하게 이용할 수 있음을 의미한다. 
+<br><br>
+Reactor 의 Context 는 ThreadLocal 과 유사하지만 각각의 실행 스레드와 매핑되는 ThreadLocal 과 달리 Context는 Subscriber 와 매핑이 된다. <br>
+즉, 구독이 발생할 때마다 해당 구독과 연결된 하나의 Context 가 생긴다. <br>
+
+Context 에 데이터를 쓸 때는 Context 를 사용하며 (ex. ContextWriter() ), Context 데이터 읽는 방식은 두가지이다. 
+1. 원본 데이터 소스 레벨에서 읽는 방식
+   - Context 에 쓰인 데이터를 읽기 위해 deferContextual() Operator 사용한다. 
+   - deferContextual() 는 Context 에 저장된 데이터와 원본 데이터 소스의 처리를 지연 시키는 역할을 한다.
+   - 저장된 데이터를 읽을 때는 ContextView 를 사용한다.
+2. Operator 체인의 중간에서 읽는 방식
+   - transformDeferredContextual() Operator 를 사용한다.
+   - Reactor 에서는 Operator 체인 상의 서로 다른 스레드 들이 Context 의 저장된 데이터에 손쉽게 접근할 수 있다. 
+
+특징 
+구독이 발생할 때마다 해당하는 하나의 Context 가 하나의 구독에 연결된다.<br>
+Context 는 Operator 체인의 아래에서 위로 전파되기 때문에 일반적으로 contextWrite() 를 Operator 체인의 맨 마지막에 둔다. <br>
+Context 는 인증 정보같은 독힙성을 가지는 정보를 전송하는데 적합하다. <br>
+
+
+### Debugging
+
+
+
+
 <br><br><br><br><br>
 
 참고 <br>
