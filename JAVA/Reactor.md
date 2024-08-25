@@ -163,8 +163,17 @@ Context 는 Operator 체인의 아래에서 위로 전파되기 때문에 일반
 Context 는 인증 정보같은 독힙성을 가지는 정보를 전송하는데 적합하다. <br>
 
 
-### Debugging
+### Operators
+Sequence 생성을 위한 operator 
+- justOrEmpty : emit 할 데이터가 null 인 경우 nullPointException 대신 onComplete signal 을 전송
+- fromIterable : Iterable 에 포함된 데이터를 emit 하는 Flux 를 생성
+- fromStream : Stream 에 포함된 데이터를 emit 하는 Flux 를 생성함. 재사용이 안됨
+- range : n 부터 1씩 증가한 연속된 수를 m 개 emit 하는 Flux 를 생성
+- defer : 구독하는 시점에 데이터를 emit 하는 Flux 또는 Mono 를 생성 (just 는 hot publisher 여서 subscriber 의 구독 여부와 상관없이 데이터를 emit 하는데 defer 를 사용하면 구독이 발생하기 전까지 데이터의 emit 을 지연시키기 때문에 just operator 를 defer 로 감싸면 실제 구독이 발생해야 데이터를 emit 한다.)
+- using : 파라미터로 전달받은 resource 를 emit 하는 Flux 를 생성
+- generate : 프로그래밍 방식으로 signal 이벤트를 발생시키며 특히 동기적으로 데이터를 하나씩 순차적으로 emit 하고자 할 경우 사용
 
+  
 
 
 
