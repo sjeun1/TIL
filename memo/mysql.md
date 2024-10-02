@@ -49,8 +49,8 @@ max_user_connection 수치보다 더 많은 connection 사용 불가.<br>
 <br><br><br>
 
 문법 실행 순서 <br>
-FROM - WHERE - GROUP BY - HAVING - SELECT - ORDER BY <br>
+FROM - WHERE - GROUP BY - HAVING - SELECT - DISTINCT - ORDER BY <br>
 첫번째로 FROM 절로 테이블의 모든 데이터를 가져온 후 WHERE 조건에 일치하는 데이터만 가져온다. <br>
 GROUP BY 로 그룹화하여 단일 값으로 축소되고 HAVING 의 조건을 가져온다. <br>
-SELECT 의 열을 가져오고 ORDER bY 로 순서를 정렬한다. <br>
+SELECT 의 열을 가져오고 DISTINCT 로 중복을 제거한 후, ORDER bY 로 순서를 정렬한다. <br>
 
