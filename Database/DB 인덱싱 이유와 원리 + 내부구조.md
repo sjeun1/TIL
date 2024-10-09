@@ -24,22 +24,30 @@ ALTER TABLE 테이블명 ADD INDEX 인덱스명 (컬럼명);<br>
 ALTER TABLE 테이블명 DROP INDEX 인덱스명;<br>
 <br>
 인덱스 확인
-EXPLAIN SELECT * FROM 테이블명; // TYPE = NULL, Possible keys = NULL 이면 인덱스 안타는 경우<br>
+EXPLAIN SELECT * FROM 테이블명; // TYPE = NULL, Possible keys = NULL 이면 인덱스 안타는 경우 <br>
 <br>
 
 ## 내부구조
+Mysql 기준으로 주로 사용하는 스토리지 엔진인 nnoDB는 B+Tree를 기반으로 인덱스를 구성한다. <br>
+B-Tree는 비선형 자료구조로, 데이터를 정렬된 방식으로 저장하여 빠르게 조회, 삽입, 삭제를 할 수 있다. <br>
+B-Tree의 변형인 B+Tree는 특히 데이터베이스에서 자주 사용된다. <br>
+
 B-Tree or B+Tree <br>
+B-Tree는 트리의 각 노드에 데이터(실제값) 와 포인터(다음 노드로 가는 연결정보)가 모두 저장된다.<br>
+B+Tree는 데이터는 가장 끝 노드인 리프 노드에만 저장되고, 내부 노드는 데이터 위치를 가리키는 값인 인덱스를 저장한다. <br> 
+(내부 노드는 탐색을 빠르게 하기 위해 경로만 알려주고, 실제 데이터를 저장하는 역할은 리프 노드에 맡김) <br>
+이는 B+Tree 에서 리프 노드가 연결리스트 형태로 이어져 있어서 한 번 리프 노드에 도달하면 순차적으로 데이터를 빠르게 읽을 수 있다. <br>
+이 때문에 범위 조회 시 효율적이다.  <br> 
+데이터베이스에서 B+Tree를 선호하는 이유는 범위 검색, 정렬된 데이터 조회에 유리하기 때문이다. <br>
+
 <br>
 자료구조는 선형, 비선형으로 나뉘는데 비선형 종류는 2진트리 -> B-Tree <br>
 주소록 같은 거 만들 때 고성능을 내려면 B-Tree 로 구성을 해야함<br>
 데이터 10만건일 때에도 속도가 일정하게 유지되도록 해야함<br>
-<br>
-system, s/w 중에 kernel 이라는 말을 쓰는게 OS, DB 총 2가지가 있음<br>
-인덱스 사용 시 빠른 검색도 중요하지만 내가 무엇을 모르는가 판단하는 거.<br>
-6이 있는지 검색할 때 없는 데이터 <br>
+
 <br>
 선형검색은 6번을 다 찾아야 6이 없는 걸 알수 있다. 5-4-1-3-7-9<br>
-비선형 구조를 이용하면 <br>
+B-Tree 나 B+Tree 같은 비선형 구조를 이용하면 <br>
 &nbsp;&nbsp;&nbsp;5<br>
 &nbsp;&nbsp;4&nbsp;&nbsp;7<br>
 &nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;9<br>
