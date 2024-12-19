@@ -2,6 +2,9 @@
 인텔리제이에서 자주 쓰는 단축키를 일일히 찾기 귀찮아서 정리해보았다. <br>
 <br>
 
+### 리팩토링 
+command + option + N : 함수 인라인 <br>
+
 ### 자주쓰는 단축키 
 Ctrl + alt + v :  optional <br>
 Ctrl + shift + t   :  create test <br>
