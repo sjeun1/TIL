@@ -26,3 +26,6 @@ alt + Shift + ↓ : 한 줄 씩 코드 내리기 <br>
 f2 : 오류가 난 코드 줄로 이동  <br>
 alt + enter : import  <br>
 psvm + enter  : public static void main 코드 생성 <br>
+
+- 어디서 사용되는 지 표시 되는 usages 가 미노출 될 때
+   - Preferneces 설정창 -> inlay 검색 -> java -> code vision > show hints for > usages 체크
