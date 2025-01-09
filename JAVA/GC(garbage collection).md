@@ -111,6 +111,44 @@ Immutable Object 를 사용한다. (ex. 필드에 final 사용하고 setter 구�
 빈번하게 생성되고 버려지는 객체는 객체 풀을 통해 재사용하도록 설계한다. <br>
 
 
+## GC 튜닝 및 JVM 최적화
+1. GC 알고리즘 선택
+애플리케이션 특성에 따라 적합한 GC 알고리즘을 선택한다. (ex. -XX:+UseG1GC ) <br>
+- Serial GC: 단일 스레드, 작은 애플리케이션에 적합.
+- Parallel GC: 여러 스레드로 GC 수행, CPU 효율 높음.
+- G1 GC: 대규모 서비스, 예측 가능한 STW 시간.
+- ZGC, Shenandoah: 지연 시간(Latency) 최소화, 최신 GC 알고리즘.
+
+2. Heap 크기 및 메모리 설정
+스택 메모리는 JVM 이 자동으로 관리하고 메서드 종료 시 자동으로 해제되어 일반적으로 잘하진 않는다. <br>
+하지만 힙은 관리가 필요하고 일반적으로 -Xms, -Xmx 를 둘 다 설정해야한다. <br>
+동일하게 설정하면 동적 확장/축소를 방지하여 성능을 안정시킬 수 있다. <br>
+적절히 큰 -Xmx 값을 설정하면 OutOfMemoryError 를 발지 할 수 있다. <br>
+적절히 큰 -Xms 값을 설정하면 애플리케이션 실행 초기 메모리 부족으로 인한 확장을 방지할 수 있다. <br>
+
+- 어떻게 결정하는가? <br>
+  - 애플리케이션의 메모리 요구량<br>
+  - 애플리케이션의 트래픽<br>
+  - 가비지 컬렉션의 동작 <br>
+
+주의 <br>
+너무 작게 설정하는 경우 : 자주 GC가 실행되고 성능이 저하 <br>
+너무 크게 설정하는 경우 : 시스템 전체 메모리가 부족해지고, 성능이 악화되거나 OutOfMemoryError가 발생 (리소스 낭비) <br>
+
+주의 : JVM 이 초기 힙 메모리 부족으로 인해 힙을 확장해야하는 경우, 확장 작업은 CPU 오버헤드가 발생하고 성능이 저하될 수 있다. <br>
+```
+-Xms512m -Xmx1024m -XX:NewRatio=2
+
+// Xmx1024m : JVM 이 사용할 수 있는 최대 힙 메모리 크기
+// Xms512m : JVM 이 시작될 때 할당할 초기 힙 메모리 크기
+```
+
+3. GC 로그 분석
+프로파일링 도구를 사용하여 애플리케이션의 메모리, CPU 사용량, GC 동작을 분석. (JProfiler, VisualVM, Eclipse MAT.)  <br>
+애플리케이션 모니터링 도구를 사용하여 CPU 및 메모리 사용량을 실시간으로 모니터링. (Prometheus, Grafana) <br>
+GC 로그 분석하여 GC 빈도, STW 시간을 확인 (ex. -XX:+PrintGCDetails -Xloggc:gc.log) <br>
+
+ <br> <br> <br> <br>
 
 참고 : https://d2.naver.com/helloworld/1329
 https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC
